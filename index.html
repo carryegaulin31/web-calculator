@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<!-- <link rel="stylesheet" href="styles.css" /> -->
-		<script type="text/javascript" src="script.js"></script>
-		<title>web-calculator</title>
-	</head>
-		<body>
+
+<head>
 	<style>
-		body { background-color: plum; }
+		body {
+			background-color: darkorchid;
 	</style>
-        <script> 
-			alert("Lets do some math!");
-		</script>	
-			<h1>Web Calculator</h1>
-				<form>
-					<input id="number1" type="text" name="number1">
-					<select id="operation" onchange="operator()">
-						<option value='+'>+</option>
-						<option value='-'>-</option>
-						<option value='*'>*</option>
-						<option value='/'>/</option>
-					</select>
-					<input id="number2" type="text" name="number2"> 
-					<span>=</span>
-					<input id="answer" type="text" name="answer">
-					<!-- <button type="button" name="Add" value="Answer" onclick="sum()"> -->
-					<input type="button" value="Click for answer" onclick="calculate()">
-				</form>
-		</body>
+	<script type="text/javascript" src="script.js"></script>
+	<title>web-calculator</title>
+</head>
+
+<body>
+	<script>
+		alert("Lets do some math!");
+	</script>
+	<h1>Web Calculator</h1>
+	<form>
+		<input id="number1" type="text" name="number1">
+		<select id="operation" onchange="operator()">
+			<option value='+'>+</option>
+			<option value='-'>-</option>
+			<option value='*'>*</option>
+			<option value='/'>/</option>
+		</select>
+		<input id="number2" type="text" name="number2">
+		<span>=</span>
+		<input id="answer" type="text" name="answer">
+		<input type="button" value="Click for answer" onclick="calculate()">
+	</form>
+</body>
 </html>
-			
-			
